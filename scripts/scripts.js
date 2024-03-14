@@ -8,11 +8,11 @@ const backGround = document.querySelector('#main-square');
 
 
 function setColor() {
- 
+    //считали значение слайдера
     let valueSlider = slider.value;
 
     //меняем фон
-    backGround.style.backgroundColor = `rgb(${255-slider.value},${255-slider.value},${255-slider.value})`;
+    backGround.style.backgroundColor = `rgb(${255-valueSlider},${255-valueSlider},${255-valueSlider})`;
     //меняем positopn left верхнего квадрата - ползет слева направо
     firstSquare.style.left = `${valueSlider}px`;
     //меняем positopn left нижнего квадрата - ползет справа налево
