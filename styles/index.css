@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+
+
+#main-square {
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: 3px solid black;
+    position: absolute;   
+}
+
+.one {
+
+    top: 30px;
+    background-color: red;
+}
+
+.two {
+
+    top: 237px;
+    left: 267px;
+    background-color: blueviolet;
+}
